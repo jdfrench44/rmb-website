@@ -36,10 +36,10 @@ export default {
           name: 'Shows',
           to: '/shows'
         },
-        {
-          name: 'News',
-          to: '/news'
-        },
+        // {
+        //   name: 'News',
+        //   to: '/news'
+        // },
         {
           name: 'Music',
           to: '/music'
@@ -87,7 +87,8 @@ header {
   width: 100%;
   color: white;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  background: url("assets/img/back.jpg"), #7b4397;
+  // background: url("assets/img/back.jpg"), #7b4397;
+  background-color: purple;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -116,8 +117,8 @@ body {
 }
 #app {
   min-height: 100%;
-  background-image: url("./assets/img/back.jpg");
-  background-color: hsla(0,0%,100%,0.20);
+  // background-image: url("./assets/img/back.jpg");
+  background-color: #86bac97a;
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;

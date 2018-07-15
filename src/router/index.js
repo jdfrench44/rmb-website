@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Shows from '@/components/Shows'
-import News from '@/components/News'
+// import News from '@/components/News'
 import Music from '@/components/Music'
 import Band from '@/components/Band'
 import Press from '@/components/Press'
@@ -24,11 +24,11 @@ export default new Router({
       name: 'Shows',
       component: Shows
     },
-    {
-      path: '/news',
-      name: 'News',
-      component: News
-    },
+    // {
+    //   path: '/news',
+    //   name: 'News',
+    //   component: News
+    // },
     {
       path: '/music',
       name: 'Music',
